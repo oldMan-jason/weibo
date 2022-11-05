@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJWeBoTest/Clasess/ViewModel/WBStatusListViewModel.swift"
+            timestampString = "514711344.788814"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "loadStatus(Pullup:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJWeBoTest/Clasess/Tools/NetworkTools/WBNetworkManager+Extension.swift"
+            timestampString = "514711335.926999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "statusList(since_id:max_id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZJWeBoTest.WBNetworkManager.(statusList (since_id : Swift.Int64, max_id : Swift.Int64, completion : (Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;&gt;, Swift.Bool) -&gt; ()) -&gt; ()).(default argument 0)"
+                  moduleName = "ZJWeBoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///shaozj-swift/shaozjWebo%E5%BD%92%E6%A1%A3/37-ZJWeBoTest%EF%BC%88%E8%87%AA%E5%AE%9A%E4%B9%89textview%E7%AB%99%E4%BD%8D%E6%96%87%E5%AD%97,%E5%8F%91%E5%B8%83%E5%BE%AE%E5%8D%9A)/ZJWeBoTest/Clasess/Tools/NetworkTools/WBNetworkManager+Extension.swift"
+                  timestampString = "514711346.355329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "6">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZJWeBoTest.WBNetworkManager.(statusList (since_id : Swift.Int64, max_id : Swift.Int64, completion : (Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;&gt;, Swift.Bool) -&gt; ()) -&gt; ()).(default argument 1)"
+                  moduleName = "ZJWeBoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///shaozj-swift/shaozjWebo%E5%BD%92%E6%A1%A3/37-ZJWeBoTest%EF%BC%88%E8%87%AA%E5%AE%9A%E4%B9%89textview%E7%AB%99%E4%BD%8D%E6%96%87%E5%AD%97,%E5%8F%91%E5%B8%83%E5%BE%AE%E5%8D%9A)/ZJWeBoTest/Clasess/Tools/NetworkTools/WBNetworkManager+Extension.swift"
+                  timestampString = "514711346.358134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "6">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZJWeBoTest.WBNetworkManager.statusList (since_id : Swift.Int64, max_id : Swift.Int64, completion : (Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "ZJWeBoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///shaozj-swift/shaozjWebo%E5%BD%92%E6%A1%A3/37-ZJWeBoTest%EF%BC%88%E8%87%AA%E5%AE%9A%E4%B9%89textview%E7%AB%99%E4%BD%8D%E6%96%87%E5%AD%97,%E5%8F%91%E5%B8%83%E5%BE%AE%E5%8D%9A)/ZJWeBoTest/Clasess/Tools/NetworkTools/WBNetworkManager+Extension.swift"
+                  timestampString = "514711346.360725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJWeBoTest/Clasess/Tools/NetworkTools/WBNetworkManager+Extension.swift"
+            timestampString = "514711356.774854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "statusList(since_id:max_id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

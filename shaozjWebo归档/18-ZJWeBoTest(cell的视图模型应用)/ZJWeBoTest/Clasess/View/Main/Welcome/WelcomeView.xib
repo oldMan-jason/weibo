@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WelcomeView" customModule="ZJWeBoTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad_background" translatesAutoresizingMaskIntoConstraints="NO" id="TJR-nr-Ebc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_default" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-Un-b96">
+                    <rect key="frame" x="145" y="422" width="85" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="I8f-I8-VI4"/>
+                        <constraint firstAttribute="width" constant="85" id="u7f-Hj-nvg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎归来" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utf-Ik-SCZ">
+                    <rect key="frame" x="153" y="523" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TJR-nr-Ebc" secondAttribute="trailing" id="Hdw-GC-xtA"/>
+                <constraint firstItem="eo6-Un-b96" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qu4-SG-bGY"/>
+                <constraint firstAttribute="bottom" secondItem="eo6-Un-b96" secondAttribute="bottom" constant="160" id="gMg-Lb-5m9"/>
+                <constraint firstAttribute="bottom" secondItem="TJR-nr-Ebc" secondAttribute="bottom" id="ibd-hj-xpJ"/>
+                <constraint firstItem="utf-Ik-SCZ" firstAttribute="top" secondItem="eo6-Un-b96" secondAttribute="bottom" constant="16" id="lTE-MT-Cf3"/>
+                <constraint firstItem="eo6-Un-b96" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="m81-EY-Zol"/>
+                <constraint firstItem="TJR-nr-Ebc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oUq-S9-bpG"/>
+                <constraint firstItem="TJR-nr-Ebc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s8W-sr-krc"/>
+                <constraint firstItem="utf-Ik-SCZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vrv-Q2-bI2"/>
+            </constraints>
+            <connections>
+                <outlet property="iconBottomCons" destination="gMg-Lb-5m9" id="BVa-Jz-Uhg"/>
+                <outlet property="iconImgView" destination="eo6-Un-b96" id="3cW-SX-CHg"/>
+                <outlet property="titleLable" destination="utf-Ik-SCZ" id="nhz-UT-Fys"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="40"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ad_background" width="375" height="667"/>
+        <image name="avatar_default" width="50" height="50"/>
+    </resources>
+</document>

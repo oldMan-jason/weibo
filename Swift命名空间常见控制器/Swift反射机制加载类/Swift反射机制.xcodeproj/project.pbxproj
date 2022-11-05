@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836D074A1E2C8FE000E1EB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D07491E2C8FE000E1EB4E /* AppDelegate.swift */; };
+		836D074C1E2C8FE000E1EB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D074B1E2C8FE000E1EB4E /* ViewController.swift */; };
+		836D074F1E2C8FE000E1EB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836D074D1E2C8FE000E1EB4E /* Main.storyboard */; };
+		836D07511E2C8FE000E1EB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836D07501E2C8FE000E1EB4E /* Assets.xcassets */; };
+		836D07541E2C8FE000E1EB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836D07521E2C8FE000E1EB4E /* LaunchScreen.storyboard */; };
+		836D075F1E2C8FE000E1EB4E /* Swift____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D075E1E2C8FE000E1EB4E /* Swift____Tests.swift */; };
+		836D076A1E2C8FE000E1EB4E /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D07691E2C8FE000E1EB4E /* Swift____UITests.swift */; };
+		836D07F21E2CA69D00E1EB4E /* BUndle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D07F11E2CA69D00E1EB4E /* BUndle+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836D075B1E2C8FE000E1EB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836D073E1E2C8FE000E1EB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836D07451E2C8FE000E1EB4E;
+			remoteInfo = "Swift反射机制";
+		};
+		836D07661E2C8FE000E1EB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836D073E1E2C8FE000E1EB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836D07451E2C8FE000E1EB4E;
+			remoteInfo = "Swift反射机制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836D07461E2C8FE000E1EB4E /* Swift反射机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift反射机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836D07491E2C8FE000E1EB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		836D074B1E2C8FE000E1EB4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		836D074E1E2C8FE000E1EB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836D07501E2C8FE000E1EB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836D07531E2C8FE000E1EB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836D07551E2C8FE000E1EB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836D075A1E2C8FE000E1EB4E /* Swift反射机制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift反射机制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836D075E1E2C8FE000E1EB4E /* Swift____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____Tests.swift"; sourceTree = "<group>"; };
+		836D07601E2C8FE000E1EB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836D07651E2C8FE000E1EB4E /* Swift反射机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift反射机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836D07691E2C8FE000E1EB4E /* Swift____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____UITests.swift"; sourceTree = "<group>"; };
+		836D076B1E2C8FE000E1EB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836D07F11E2CA69D00E1EB4E /* BUndle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BUndle+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836D07431E2C8FE000E1EB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07571E2C8FE000E1EB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07621E2C8FE000E1EB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836D073D1E2C8FE000E1EB4E = {
+			isa = PBXGroup;
+			children = (
+				836D07481E2C8FE000E1EB4E /* Swift反射机制 */,
+				836D075D1E2C8FE000E1EB4E /* Swift反射机制Tests */,
+				836D07681E2C8FE000E1EB4E /* Swift反射机制UITests */,
+				836D07471E2C8FE000E1EB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836D07471E2C8FE000E1EB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836D07461E2C8FE000E1EB4E /* Swift反射机制.app */,
+				836D075A1E2C8FE000E1EB4E /* Swift反射机制Tests.xctest */,
+				836D07651E2C8FE000E1EB4E /* Swift反射机制UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836D07481E2C8FE000E1EB4E /* Swift反射机制 */ = {
+			isa = PBXGroup;
+			children = (
+				836D07491E2C8FE000E1EB4E /* AppDelegate.swift */,
+				836D07F11E2CA69D00E1EB4E /* BUndle+Extension.swift */,
+				836D074B1E2C8FE000E1EB4E /* ViewController.swift */,
+				836D074D1E2C8FE000E1EB4E /* Main.storyboard */,
+				836D07501E2C8FE000E1EB4E /* Assets.xcassets */,
+				836D07521E2C8FE000E1EB4E /* LaunchScreen.storyboard */,
+				836D07551E2C8FE000E1EB4E /* Info.plist */,
+			);
+			path = "Swift反射机制";
+			sourceTree = "<group>";
+		};
+		836D075D1E2C8FE000E1EB4E /* Swift反射机制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				836D075E1E2C8FE000E1EB4E /* Swift____Tests.swift */,
+				836D07601E2C8FE000E1EB4E /* Info.plist */,
+			);
+			path = "Swift反射机制Tests";
+			sourceTree = "<group>";
+		};
+		836D07681E2C8FE000E1EB4E /* Swift反射机制UITests */ = {
+			isa = PBXGroup;
+			children = (
+				836D07691E2C8FE000E1EB4E /* Swift____UITests.swift */,
+				836D076B1E2C8FE000E1EB4E /* Info.plist */,
+			);
+			path = "Swift反射机制UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836D07451E2C8FE000E1EB4E /* Swift反射机制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836D076E1E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制" */;
+			buildPhases = (
+				836D07421E2C8FE000E1EB4E /* Sources */,
+				836D07431E2C8FE000E1EB4E /* Frameworks */,
+				836D07441E2C8FE000E1EB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift反射机制";
+			productName = "Swift反射机制";
+			productReference = 836D07461E2C8FE000E1EB4E /* Swift反射机制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836D07591E2C8FE000E1EB4E /* Swift反射机制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836D07711E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制Tests" */;
+			buildPhases = (
+				836D07561E2C8FE000E1EB4E /* Sources */,
+				836D07571E2C8FE000E1EB4E /* Frameworks */,
+				836D07581E2C8FE000E1EB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836D075C1E2C8FE000E1EB4E /* PBXTargetDependency */,
+			);
+			name = "Swift反射机制Tests";
+			productName = "Swift反射机制Tests";
+			productReference = 836D075A1E2C8FE000E1EB4E /* Swift反射机制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		836D07641E2C8FE000E1EB4E /* Swift反射机制UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836D07741E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制UITests" */;
+			buildPhases = (
+				836D07611E2C8FE000E1EB4E /* Sources */,
+				836D07621E2C8FE000E1EB4E /* Frameworks */,
+				836D07631E2C8FE000E1EB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836D07671E2C8FE000E1EB4E /* PBXTargetDependency */,
+			);
+			name = "Swift反射机制UITests";
+			productName = "Swift反射机制UITests";
+			productReference = 836D07651E2C8FE000E1EB4E /* Swift反射机制UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836D073E1E2C8FE000E1EB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "邵泽俊";
+				TargetAttributes = {
+					836D07451E2C8FE000E1EB4E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DATF25GK9V;
+						ProvisioningStyle = Automatic;
+					};
+					836D07591E2C8FE000E1EB4E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DATF25GK9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836D07451E2C8FE000E1EB4E;
+					};
+					836D07641E2C8FE000E1EB4E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DATF25GK9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836D07451E2C8FE000E1EB4E;
+					};
+				};
+			};
+			buildConfigurationList = 836D07411E2C8FE000E1EB4E /* Build configuration list for PBXProject "Swift反射机制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836D073D1E2C8FE000E1EB4E;
+			productRefGroup = 836D07471E2C8FE000E1EB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836D07451E2C8FE000E1EB4E /* Swift反射机制 */,
+				836D07591E2C8FE000E1EB4E /* Swift反射机制Tests */,
+				836D07641E2C8FE000E1EB4E /* Swift反射机制UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836D07441E2C8FE000E1EB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D07541E2C8FE000E1EB4E /* LaunchScreen.storyboard in Resources */,
+				836D07511E2C8FE000E1EB4E /* Assets.xcassets in Resources */,
+				836D074F1E2C8FE000E1EB4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07581E2C8FE000E1EB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07631E2C8FE000E1EB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836D07421E2C8FE000E1EB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D074C1E2C8FE000E1EB4E /* ViewController.swift in Sources */,
+				836D074A1E2C8FE000E1EB4E /* AppDelegate.swift in Sources */,
+				836D07F21E2CA69D00E1EB4E /* BUndle+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07561E2C8FE000E1EB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D075F1E2C8FE000E1EB4E /* Swift____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D07611E2C8FE000E1EB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D076A1E2C8FE000E1EB4E /* Swift____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836D075C1E2C8FE000E1EB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836D07451E2C8FE000E1EB4E /* Swift反射机制 */;
+			targetProxy = 836D075B1E2C8FE000E1EB4E /* PBXContainerItemProxy */;
+		};
+		836D07671E2C8FE000E1EB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836D07451E2C8FE000E1EB4E /* Swift反射机制 */;
+			targetProxy = 836D07661E2C8FE000E1EB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836D074D1E2C8FE000E1EB4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836D074E1E2C8FE000E1EB4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836D07521E2C8FE000E1EB4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836D07531E2C8FE000E1EB4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836D076C1E2C8FE000E1EB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836D076D1E2C8FE000E1EB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836D076F1E2C8FE000E1EB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		836D07701E2C8FE000E1EB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		836D07721E2C8FE000E1EB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift反射机制.app/Swift反射机制";
+			};
+			name = Debug;
+		};
+		836D07731E2C8FE000E1EB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift反射机制.app/Swift反射机制";
+			};
+			name = Release;
+		};
+		836D07751E2C8FE000E1EB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift反射机制";
+			};
+			name = Debug;
+		};
+		836D07761E2C8FE000E1EB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DATF25GK9V;
+				INFOPLIST_FILE = "Swift反射机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ljh.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift反射机制";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836D07411E2C8FE000E1EB4E /* Build configuration list for PBXProject "Swift反射机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D076C1E2C8FE000E1EB4E /* Debug */,
+				836D076D1E2C8FE000E1EB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836D076E1E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D076F1E2C8FE000E1EB4E /* Debug */,
+				836D07701E2C8FE000E1EB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836D07711E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D07721E2C8FE000E1EB4E /* Debug */,
+				836D07731E2C8FE000E1EB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836D07741E2C8FE000E1EB4E /* Build configuration list for PBXNativeTarget "Swift反射机制UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D07751E2C8FE000E1EB4E /* Debug */,
+				836D07761E2C8FE000E1EB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836D073E1E2C8FE000E1EB4E /* Project object */;
+}
